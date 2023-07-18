@@ -4,13 +4,12 @@
  * print _alphabet - utilizes on the _putchar function to print
  *                the alphabet a - z
  */
-
 void print_alphabet(void)
 {
-	char letter;
+	int ch;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
 
 	_putchar('\n');
 
